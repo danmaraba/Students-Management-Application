@@ -6,17 +6,19 @@ import Home from "./Home";
 import About from "./About";
 import "./App.css";
 import Error from "./Error";
+import Dashboard from "./Dashboard";
 
 
 function App() {
-  const[user, setUser] = useState(null)
+  const[student, setStudent] = useState(null)
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/about" element={<About/>}></Route>
-        <Route path="/login" element={<Login setUser={setUser}/>}></Route>
-        <Route path="/signup" element={<SignUp user={user}/>}></Route>
+        <Route path="/login" element={<Login setstudent={setStudent}/>}></Route>
+        <Route path="/signup" element={<SignUp />}></Route>
+        <Route path="/dashboard" element={<Dashboard student={student}/>}></Route>
         <Route path="/*" element={<Error/>}></Route>
       </Routes>
     </BrowserRouter>

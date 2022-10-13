@@ -11,5 +11,45 @@ body{
   padding-top: 3%;
 }
 
+#login{
+  text-align: center;
+  font-weight: 300;
+  font-family: 'Times New Roman', Times, serif;
+}
 
+.label{
+  display: block;
+  font-weight: 300;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 47%;
+}
+
+.input{
+  margin-left: 47%;
+  border-style: none;
+}
+
+.btn{
+  display: block;
+  margin-left: 47%;
+  color: white;
+  background-color: blue;
+  border-style: none;
+  width: 14%;
+  margin-top: 5px;
+}
+
+#signup{
+  text-align: center;
+  font-weight: 300;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 5px;
+  color: white;
+  background-color: blue;
+  border-style: none;
+}
+
+.description{
+  font-style: italic;
+}
 
